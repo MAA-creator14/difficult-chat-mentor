@@ -26,7 +26,7 @@ const STEPS = [
   'Desired Outcome',
   'Anticipate Objections',
   'Talking Points',
-  'Pre-flight Checklist',
+  'Pre-chat Checklist',
 ];
 
 export default function NewConversation() {
@@ -396,7 +396,7 @@ export default function NewConversation() {
         {step === 6 && (
           <div className="space-y-4">
             <div>
-              <Label>Pre-flight Checklist</Label>
+              <Label>Pre-chat Checklist</Label>
               <p className="text-xs text-neutral-500 mt-1 mb-3">Have you covered these essentials?</p>
               <div className="space-y-2">
                 {checklist.map((item) => (

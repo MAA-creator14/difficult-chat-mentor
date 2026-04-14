@@ -102,7 +102,7 @@ A step-by-step structured preparation flow that adapts to the conversation type 
 4. **Desired outcome** — what does success look like after this conversation? (mutual understanding, agreed action, formal warning, etc.)
 5. **Anticipate objections** — what pushback, deflection, or emotional reaction is the manager expecting? The app prompts with common reactions for the selected conversation type.
 6. **Draft talking points** — the manager writes their key messages; the AI coaching layer reviews these in real time
-7. **Pre-flight checklist** — context-specific reminders (e.g., "have you documented previous feedback?", "is HR looped in for a termination?")
+7. **Pre-chat checklist** — context-specific reminders (e.g., "have you documented previous feedback?", "is HR looped in for a termination?")
 
 **Frameworks surfaced by conversation type:**
 - **SBI** (Situation-Behavior-Impact) — default for feedback and performance
@@ -207,7 +207,7 @@ New Conversation Flow
 ├── Step 4: Desired Outcome
 ├── Step 5: Anticipate Objections
 ├── Step 6: Talking Points + AI Coaching panel
-├── Step 7: Pre-flight Checklist
+├── Step 7: Pre-chat Checklist
 └── → Practice or Save & Go
 
 Practice Session

@@ -116,14 +116,14 @@ export default function ConversationDetail() {
                 <Sparkles className="w-6 h-6 text-white" strokeWidth={2.5} />
               </div>
               <div className="flex-1">
-                <h3 className="text-base font-semibold text-violet-900 mb-1">Pre-flight Review Recommended</h3>
+                <h3 className="text-base font-semibold text-violet-900 mb-1">Pre-chat Review Recommended</h3>
                 <p className="text-sm text-violet-800 mb-4 leading-relaxed">
                   Get comprehensive AI feedback on your preparation before practicing. This will help you refine your approach and identify any gaps.
                 </p>
                 <Link href={`/review/${conversation.id}`}>
                   <Button size="sm" className="bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white shadow-md">
                     <Sparkles className="w-4 h-4 mr-2" />
-                    Start Pre-flight Review
+                    Start Pre-chat Review
                   </Button>
                 </Link>
               </div>
@@ -189,7 +189,7 @@ export default function ConversationDetail() {
         </Section>
 
         {conversation.comprehensiveFeedback && (
-          <Section title="Pre-flight AI Review">
+          <Section title="Pre-chat AI Review">
             <div className="space-y-4">
               <div className="bg-gradient-to-br from-violet-50 to-purple-50 border-2 border-violet-200 rounded-xl p-5">
                 <div className="flex items-center gap-2 mb-3">
@@ -229,7 +229,7 @@ export default function ConversationDetail() {
         )}
 
         {conversation.checklist && conversation.checklist.length > 0 && (
-          <Section title="Pre-flight Checklist">
+          <Section title="Pre-chat Checklist">
             <div className="space-y-2">
               {conversation.checklist.map((item) => (
                 <div key={item.id} className="flex items-start gap-3 p-3 border border-neutral-200 rounded-lg">

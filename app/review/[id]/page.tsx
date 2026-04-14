@@ -10,7 +10,7 @@ import {
 import { generateComprehensiveFeedback, ComprehensiveFeedback } from '../../lib/ai';
 import { Button } from '../../components/ui/button';
 
-export default function PreFlightReview() {
+export default function PreChatReview() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
   const [conversation, setConversation] = useState<Conversation | null>(null);
@@ -87,7 +87,7 @@ export default function PreFlightReview() {
       </div>
 
       <div className="mb-8">
-        <h1 className="text-2xl font-semibold text-neutral-900 mb-1">Pre-flight Review</h1>
+        <h1 className="text-2xl font-semibold text-neutral-900 mb-1">Pre-chat Review</h1>
         <p className="text-sm text-neutral-600">Review your preparation for: {conversation.title}</p>
         <p className="text-xs text-neutral-500 mt-1">{typeLabel}</p>
       </div>

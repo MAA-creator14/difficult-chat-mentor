@@ -208,14 +208,14 @@ export default function Practice() {
                 <AlertCircle className="w-6 h-6 text-white" strokeWidth={2.5} />
               </div>
               <div className="flex-1">
-                <h3 className="text-base font-semibold text-amber-900 mb-1">Pre-flight Review Not Completed</h3>
+                <h3 className="text-base font-semibold text-amber-900 mb-1">Pre-chat Review Not Completed</h3>
                 <p className="text-sm text-amber-800 mb-3 leading-relaxed">
                   We recommend getting comprehensive AI feedback on your preparation before practicing.
                 </p>
                 <Link href={`/review/${id}`}>
                   <Button size="sm" variant="outline" className="border-violet-300 text-violet-700 hover:bg-violet-50">
                     <Sparkles className="w-4 h-4 mr-2" />
-                    Get Pre-flight Review
+                    Get Pre-chat Review
                   </Button>
                 </Link>
               </div>
